@@ -44,7 +44,7 @@ character.
 The SAME command checks whether two logos have the same shape irrespective of their orientation. It expects the names of two logos that have
 been defined earlier via LOGO command. When comparing two logos we
 are just considering their shapes neither their absolute positions on the surface nor their orientation, i.e., we may turn a logo engraved surface 90◦
-, 180◦ and 270◦ clockwise (or counter-clockwise) when comparing with another logo. The command outputs Yes if the two logos match or No otherwise.
+,180◦ and 270◦ clockwise (or counter-clockwise) when comparing with another logo. The command outputs Yes if the two logos match or No otherwise.
 Consider the following two commands that define logo2 and engrave it.
 
 - LOGO logo2 URDUDDLL
