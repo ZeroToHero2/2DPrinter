@@ -1,4 +1,4 @@
-# 2DPrinter 
+# 3DPrinter 
 Develop a system in JavaScript that helps controlling a laser logo printer machine (you can also see it as a part of 3D printer). The machine can be used to engrave some figures (logos) on a metal or wood surface. The system controls the machines laser head. The surface has a grid layout and its size is fixed. There are 11x11 dots.
 
 # Implementation Details
@@ -22,10 +22,10 @@ been defined earlier via LOGO command. When comparing two logos we are just cons
 
 Consider the following two commands that define logo2 and engrave it.
 
-## LOGO logo2 URDUDDLL
+### LOGO logo2 URDUDDLL
 - logo2 defined
-## ENGRAVE logo2 10 3
+### ENGRAVE logo2 10 3
 
 Note that if we turn the surface of logo2 90◦ clockwise or turn the surface of logo1 90◦ counterclockwise, both logos match. Hence, the following SAME command outputs Yes.
-## SAME logo1 logo2
+### SAME logo1 logo2
 - Yes
